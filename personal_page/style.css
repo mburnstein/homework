@@ -1,0 +1,39 @@
+body {
+	background-color: white;
+	margin: 75px;
+	margin-top: 20px;
+  	padding: 75px;
+  	font-family: garamond;
+  }
+
+h1, h3, #top {
+	text-align: center;
+}
+
+#top {
+	padding: -20px;
+}
+
+img, #url {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+	padding: 1px;
+    border: 1px solid #388E8E;
+}
+
+
+p {
+	text-align: justify;
+}
+
+ul {
+	text-align: justify;
+}
+
+a {
+	color: #388E8E;
+}
