@@ -10,6 +10,10 @@ h1, h3, #top {
 	text-align: center;
 }
 
+#left {
+	text-align: left;
+}
+
 #top {
 	padding: -20px;
 }
@@ -22,7 +26,7 @@ img, #url {
 
 img {
 	padding: 1px;
-    border: 1px solid #388E8E;
+    border: 1px solid #ff4000;
 }
 
 
@@ -35,5 +39,5 @@ ul {
 }
 
 a {
-	color: #388E8E;
+	color: #ff4000;
 }
