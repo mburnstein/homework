@@ -1,0 +1,33 @@
+
+  *{
+  font-family: 'Lato', sans-serif;
+  color: #000000;
+  font-weight: 300;
+  }
+
+  h1 a, h4 a {
+  color: #F9D483;
+  }
+
+  nav a, h3 {
+    color: #D2D2D2;
+  }
+
+  h4 a {
+    font-weight: 700;
+  }
+
+  body {
+    margin: 50px;
+  }
+
+  nav a {
+    margin-right: 20px;
+    text-underline-position: 10px;
+  }
+
+ p {
+    text-align: justify;
+    padding: right 40px;
+    margin-right: 50px
+  }
