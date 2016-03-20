@@ -3,6 +3,8 @@
   font-family: 'Lato', sans-serif;
   color: #000000;
   font-weight: 300;
+  box-sizing: border-box;
+  border: 1px solid red;
   }
 
   h1 a, h4 a {
@@ -30,4 +32,25 @@
     text-align: justify;
     padding: right 40px;
     margin-right: 50px
+  }
+
+  section {
+    float: left;
+    width: 60%;
+    border: 5px red;
+  }
+
+  img {
+    display:block;
+    max-width: 100%;
+    margin: 10px 0;
+  }
+
+  aside {
+    float: left;
+    width: 30%;
+  }
+
+  h4 {
+    text-align: right;
   }
