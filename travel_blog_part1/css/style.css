@@ -23,6 +23,10 @@
     margin-bottom: 0px;
   }
 
+  article h2 {
+    color: #D2D2D2;
+  }
+
 
   h1 a, h4 a {
   color: #F9D483;
@@ -50,6 +54,7 @@
   body {
     margin: 50px;
   }
+  
 
   nav a {
     width: 16.4%;
@@ -61,8 +66,6 @@
     background-color: #969696;
     padding: 16px;
     display: inline-block;
-
-
   }
 
  p {
@@ -80,7 +83,7 @@
   img {
     display: block;
     max-width: 100%;
-    
+    padding: 15px 0px;
   }
 
   aside {
@@ -88,6 +91,10 @@
     width: 33.5%;
     padding-left: 25px;
     padding-top: 58px;
+  }
+
+  aside img {
+    margin-left: 15px;
   }
 
   aside h4 {
@@ -107,11 +114,6 @@ nav {
   margin-top: 0px;
 }
 
-img {
-  padding: 15px 0px;
-  margin-left: 5px;
-}
-
 .cap {
   font-size: 70px;
   float: left;
@@ -127,5 +129,25 @@ aside a {
   color: #F9D483;
   text-decoration: none;
   line-height: 1.5;
+}
+
+footer span {
+  color: #D2D2D2;
+}
+
+hr {
+  border-color: #D2D2D2;
+}
+
+.clearfix {
+  clear:both;
+}
+
+.yellowfooter {
+  color: #F9D483;
+}
+
+.grayline {
+  color: #D2D2D2;
 }
 
