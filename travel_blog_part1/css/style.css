@@ -4,15 +4,43 @@
   color: #000000;
   font-weight: 300;
   box-sizing: border-box;
-  border: 1px solid red;
+  border: 1px solid white;
   }
+
+  h1 {
+    float: left; 
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    font-size: 45px;
+    font-weight: 700;
+  }
+
+  h2 {
+  
+    padding-top: 10px;
+    display: block;
+    margin-bottom: 0px;
+  }
+
 
   h1 a, h4 a {
   color: #F9D483;
+  text-decoration: none;
+  border: blue;
   }
 
-  nav a, h3 {
+  h3 {
     color: #D2D2D2;
+  }
+
+  #adventure {
+    display: inline-block;
+    padding-left: 25px;
+  }
+
+  aside h4 {
+    align: left;
   }
 
   h4 a {
@@ -24,33 +52,80 @@
   }
 
   nav a {
-    margin-right: 20px;
-    text-underline-position: 10px;
+    width: 16.4%;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: #969696;
+    padding: 16px;
+    display: inline-block;
+
+
   }
 
  p {
     text-align: justify;
-    padding: right 40px;
-    margin-right: 50px
+    line-height: 1.5;
+    font-size: 16px;
   }
 
   section {
     float: left;
-    width: 60%;
+    width: 66.5%;
     border: 5px red;
   }
 
   img {
-    display:block;
+    display: block;
     max-width: 100%;
-    margin: 10px 0;
+    
   }
 
   aside {
     float: left;
-    width: 30%;
+    width: 33.5%;
+    padding-left: 25px;
+    padding-top: 58px;
   }
 
-  h4 {
+  aside h4 {
+    font-weight: 700;
+    color: #969696;
+  }
+
+  section h4 {
     text-align: right;
   }
+
+nav {
+    margin-top: 5px;
+  }
+
+.caption {
+  margin-top: 0px;
+}
+
+img {
+  padding: 15px 0px;
+  margin-left: 5px;
+}
+
+.cap {
+  font-size: 70px;
+  float: left;
+  color: #D2D2D2;
+  line-height: 70px;
+}
+
+aside li {
+  color: #D2D2D2;
+}
+
+aside a {
+  color: #F9D483;
+  text-decoration: none;
+  line-height: 1.5;
+}
+
