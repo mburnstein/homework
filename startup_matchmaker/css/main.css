@@ -3,7 +3,7 @@
   ========================================================================== */
 * {
   box-sizing: border-box;
-/*   border: 1px solid red; */
+  border: 1px solid red; 
 }
 
 .clearfix:after {
@@ -11,6 +11,7 @@
   clear: both;
   content: "";
 }
+
 
 /* ==========================================================================
    Author's custom styles
@@ -21,11 +22,11 @@
     (refer to styleguide.jpg for hex codes or use Sip to pick colors from design)
 
     White - #ffffff;
-    Light Grey -
-    Dark Grey -
-    Grey/Black(text color) -
-    Yellow -
-    Red -
+    Light Grey -#D4E1DB
+    Dark Grey -#3C3A3A
+    Grey/Black(text color) -#080808
+    Yellow -#FEDBOD
+    Red -#FFO121
 */
 
 
@@ -38,15 +39,52 @@ body {
 /* Text Styles (a, a:hover, a:visited, a:active, p, h1, h2, h3, h4, etc.)
    ================================================================ */
 a {
-  /* Set some default styles for anchors (color, text decoration) */
+  color: #ffffff;
+}
+
+
+header li {
+  display: inline-block;
+}
+
+.tagline {
+  text-align: center;
+}
+
+.banner {
+  width: 100%;
+  display: inline-block;
+}
+
+.info {
+  width: 33.333%;
+  float: left;
 }
 
 /* Layout (columns, floats, etc.)
    ================================================================ */
+header h1 {
+  float: left;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
 
+ul {
+  text-align: right;
+}
 
+.blurb {
+  width: 35%;
+  float: right;
+}
 /* Header
    ================================================================ */
+
+header {
+  background-color: #3C3A3A;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
 
 
 
