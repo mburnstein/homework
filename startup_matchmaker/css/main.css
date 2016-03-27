@@ -3,7 +3,7 @@
   ========================================================================== */
 * {
   box-sizing: border-box;
-  /*border: 1px solid red;*/ 
+  border: 1px solid red;
 }
 
 .clearfix:after {
@@ -38,6 +38,14 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+.background {
+  background-color: #D4E1DB;
+}
+
+.outerbox {
+  width: 20%;
+  background-color: white;
+}
 
 a, .button, footer p {
   color: #ffffff;
@@ -111,6 +119,14 @@ header h1 {
 
 header a, .button, .info .button {
   text-decoration: none;
+}
+
+a:hover {
+    background-color: #D4E1DB;
+}
+
+.info a:hover {
+    background-color: #FF0121;
 }
 
 ul {
