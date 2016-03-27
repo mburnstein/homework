@@ -1,0 +1,134 @@
+/* ==========================================================================
+   Global Overrides
+  ========================================================================== */
+* {
+  box-sizing: border-box;
+  /*border: 1px solid red;*/
+  font-family: 'Open Sans', sans-serif;
+}
+
+.clearfix:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+  ========================================================================== */
+
+/* 
+    SITE COLORS for your reference:
+    (refer to styleguide.jpg for hex codes or use Sip to pick colors from design)
+
+    Light small lettering - #838484;
+    Background 3images - #e0e0e0;
+    Regular lettering - #504454F
+*/
+
+
+/* Global
+   ================================================================ */
+body {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #7e7e7e;
+    margin-left: 190px;
+    margin-right: 190px;
+}
+
+header h3, header img {
+    display: inline-block;
+    float: left;
+    margin-top: 12px;
+    padding-left: 5px;
+}
+
+header li {
+    display: inline-block;
+}
+
+header a {
+    text-decoration: none;
+    color: #7e7e7e;
+    padding-right: 10px;
+}
+
+header img {
+    display: inline;
+}
+
+.banner {
+    background-color: #f1f1f1;
+    height: 280px;
+    clear:both;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+
+
+.column {
+    width: 25%;
+    float: left;
+}
+
+.column p {
+    font-size: 12px;
+    line-height: 1.5;
+    padding-right: 5px;
+}
+
+footer {    
+    font-size: 10px;
+    text-align: right;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #7e7e7e;
+}
+
+hnav a {
+    float: right;
+}
+
+ul {
+    display: inline-block;
+    float: right;
+    margin-right: 20px;
+}
+
+.banner img {
+    height: auto;
+    width: 27%;
+    margin-left: 38px;
+    margin-top: 25px;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.column img {
+    height: auto;
+    width: 90%;
+    display: block;
+    margin-top: 14px;
+}
+
+hr {
+    color: #7e7e7e;
+    margin-right: 20px;
+    clear: both;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
