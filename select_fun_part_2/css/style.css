@@ -115,3 +115,23 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+.color {
+     color: white;
+}
+
+.spanColor {
+     color: red;
+}
+
+.border {
+     border-color: green;
+}
+
+.backgroundColor {
+     background-color: blue;
+}
+
+.rowColor {
+     color: red;
+}
